@@ -39,25 +39,6 @@ p{
     max-width: 1300px;
     justify-content: space-around;
 }
-
-#MenuItems {
-    display: none;
-    transition: max-height 0.3s ease;
-    max-height: 0;
-    overflow: hidden;
-}
-
-#MenuItems.open {
-    display: block;
-    max-height: 200px; /* Adjust as needed */
-}
-
-.menu-icon{
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
-}
-
 .row{
     display: flex;
     align-items: center;
@@ -157,6 +138,20 @@ h4 {
 }
 .col-4:hover {
     transform: translateY(-5px);
+}
+.testimonial{
+    margin: 60px;
+    padding: auto;
+}
+.testimonial p{
+    text-align: justify;
+}
+.testimonial h3{
+    text-align: center;
+}
+.col-3:hover{
+    transform: translateY(-5px);
+    background: radial-gradient(#fff,#ffd6d6);
 }
 .offer {
     background: radial-gradient(#fff, #ffd6d6);

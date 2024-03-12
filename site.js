@@ -1,8 +1,10 @@
+var MenuItems = document.getElementById('MenuItems');
+MenuItems.style.maxHeight = '0px';
 function menutoggle() {
-    var menuItems = document.getElementById('MenuItems');
-    if (menuItems.classList.contains('open')) {
-        menuItems.classList.remove('open');
-    } else {
-        menuItems.classList.add('open');
-    }
+if (MenuItems.style.maxHeight == '0px') {
+MenuItems.style.maxHeight = '200px';
+} else {
+MenuItems.style.maxHeight = '0px';
 }
+}
+
