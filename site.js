@@ -7,4 +7,3 @@ MenuItems.style.maxHeight = '200px';
 MenuItems.style.maxHeight = '0px';
 }
 }
-
